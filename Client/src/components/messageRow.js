@@ -5,7 +5,7 @@ const messageRow = (props) => {
   const { message, username } = props
   return (
     <Segment>
-      <Segment vertical>{username}</Segment>
+      <Segment vertical size='huge' basic>{username}</Segment>
       <Segment vertical>{message}</Segment>
     </Segment>
   )
